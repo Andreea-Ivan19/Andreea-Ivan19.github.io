@@ -1,32 +1,52 @@
-#main {
-    text-align: center;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
     padding: 20px;
-    font-family:Tahoma;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+#principal {
+    max-width: 800px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
 
 .text-principal {
-    font-size: 60px;
-    color: black;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #222;
+    margin-bottom: 25px;
 }
 
+
+#paragraf-colorat {
+    color: green
+}
+
+
+.container-poze {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 25px;              
+    margin-top: 40px;       
+}
 
 .poza-bubu {
-    width: 100%;           
-    max-width: 600px;      
-    height: auto;          
-    border: 3px solid green;
+    width: 100%;            
+    max-width: 550px;       
+    height: auto;           
+    border: 4px solid #2e7d32;
     border-radius: 12px;
-    box-shadow: 0 4px 8px black; 
-    display: flex;
-    flex-wrap: wrap;       
-    justify-content: center; 
-    gap: 15px;    
-    margin-left: 32%;
-    margin-bottom: 2%;
-}
-
-#cuvant-colorat {
-    color: green; 
-    font-weight: bold; 
-}
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: block;
+} 
 
